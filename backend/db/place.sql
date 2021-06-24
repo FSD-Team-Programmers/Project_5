@@ -1,0 +1,12 @@
+
+CREATE TABLE place (
+id INT AUTO_INCREMENT NOT NULL,
+name VARCHAR(255),
+description VARCHAR(255),
+img VARCHAR(255),
+capacity VARCHAR(255),
+city VARCHAR(255),
+address VARCHAR(255),
+availability VARCHAR(255),
+PRIMARY KEY (id)
+);
